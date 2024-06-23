@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varshini Gone - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <article>
+        <header>
+            <h1>Varshini</h1>
+            <p>NAU ID: 63582203</p>
+            <p>Email: <a href="mailto:sg3575@nau.edu">sg3575@nau.edu</a></p>
+        </header>
+
+        <section>
+            <h2>Objective</h2>
+            <p>An enthusiastic and team-oriented student with a strong background in community service and a passion for creating memorable experiences. I am committed to social service and eager to make a positive impact through meaningful initiatives.</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Current Graduate Student</strong> in Computer Science, Northern Arizona University (Spring 2024)</li>
+                <li><strong>Bachelor of Technology</strong> in Computer Science and Engineering (68%), Narsimha Reddy Engineering College, JNTU, Hyderabad, 2016-2020</li>
+                <li><strong>Board of Intermediate Education</strong> (92%, Distinction), Sri Chaitanya Junior College, Hyderabad, 2014-2016</li>
+                <li><strong>Secondary School Certificate (SSC)</strong> (88%, Distinction), St. Ann’s High School, Secunderabad, 2014</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+
+            <h3>Volunteer, Kalam Bharat (October 2018 – October 2019)</h3>
+            <ul>
+                <li>Collected funds for government schools and managed funds to purchase books and sports equipment</li>
+            </ul>
+            <p><strong>Certification:</strong> Certificate of Recognition from Kalam Bharat (October 15, 2019)</p>
+
+            <h3>Customer Support Agent, Sitel, Hyderabad, Telangana (January 2021 to July 2021)</h3>
+            <ul>
+                <li>Delivered exemplary customer service as a support agent for HP</li>
+                <li>Honed communication skills and resolved customer queries with high satisfaction</li>
+            </ul>
+
+            <h3>Associate Software Engineer, Reveal, Hyderabad, Telangana (August 2021 to December 2023)</h3>
+            <ul>
+                <li>Contributed to the development and enhancement of software applications using C#, .NET, Angular, TypeScript, and Microsoft SQL Server</li>
+                <li>Collaborated in a dynamic team environment to deliver high-quality products</li>
+                <li>Trained team members on process workflow and best practices</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Team Collaboration</li>
+                <li>Excellent Communication</li>
+                <li>Adaptability</li>
+                <li>Time Management</li>
+                <li>Customer Service</li>
+            </ul>
+        </section>
+    </article>
+
+    <article>
+        <h2>Addendum</h2>
+        <p>In converting my resume to HTML, I made several structural choices to ensure the content was clearly organized and easy to read. Here are the key decisions and reasons behind them:</p>
+        <ul>
+            <li><strong>Header Tag:</strong> I used the &lt;header&gt; tag to encapsulate the main contact information. This provides a clear introduction to the document.</li>
+            <li><strong>Section Tags:</strong> Each major part of the resume (Objective, Education, Experience, Skills) is wrapped in a &lt;section&gt; tag. This helps in logically grouping related content together.</li>
+            <li><strong>Unordered Lists:</strong> I used &lt;ul&gt; and &lt;li&gt; tags to list education details and job responsibilities. This presents the information in a structured and easy-to-follow format.</li>
+            <li><strong>Header Tags within Sections:</strong> Each job title and education level is wrapped in &lt;h3&gt; tags to indicate subheadings, providing a hierarchical structure to the content.</li>
+            <li><strong>Footer Script:</strong> The provided script at the end of the document ensures that the last modified date is dynamically displayed, meeting the assignment requirements.</li>
+        </ul>
+
+        <h2>Stylistic Choices</h2>
+        <p>Here are the key decisions and reasons behind the stylistic choices made in the CSS:</p>
+        <ul>
+            <li><strong>Font choices:</strong> I chose 'Arial, sans-serif' for its readability and modern look. Sans-serif fonts are generally easier to read on screens compared to serif fonts.</li>
+            <li><strong>Heading sizes and main text size:</strong> The main title is set to 2.5em to make it stand out as the most important element on the page. The body text is 1.2em to ensure it is easily readable without straining the eyes.</li>
+            <li><strong>Color choices:</strong> The background color is a light gray (#f4f4f9) which reduces eye strain and creates a calming effect. The text color is dark gray (#333) which provides a good contrast against the light background, improving readability.</li>
+            <li><strong>Margin and padding choices:</strong> A 20px margin around the body creates whitespace that helps with readability and prevents the text from being too close to the edges of the browser window. The line height is set to 1.6 to provide enough space between lines, making the text easier to read.</li>
+        </ul>
+
+        <h2>HTML Abuse</h2>
+        <p>In converting the plain HTML to styled HTML, I corrected the title tag from an <code>&lt;h2&gt;</code> to an <code>&lt;h1&gt;</code> to follow proper semantic structure. The title of the essay should be the highest-level heading on the page, and using <code>&lt;h1&gt;</code> reflects its importance correctly.</p>
+    </article>
+
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
